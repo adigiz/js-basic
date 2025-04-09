@@ -21,3 +21,6 @@ fruits.shift();
 
 // question 7
 console.log(fruits.length);
+
+// question 8
+console.log(fruits.includes("Banana"));
