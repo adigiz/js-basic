@@ -2,7 +2,10 @@
 const person = {
     name: "John",
     age: 25,
-    job: "Developer"
+    job: "Developer",
+    greet: function () {
+        console.log("Hi, my name is John")
+    }
 }
 
 // soal 2
@@ -32,10 +35,4 @@ console.log(student.address.city);
 
 
 // soal 7
-const person = {
-    name: "John",
-    age: 25,
-    job: "Developer"
-}
-
-console.log(person)
+person.greet();
