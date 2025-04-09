@@ -13,3 +13,7 @@ console.log(person.job);
 // question 3
 person["hobby"] = "Reading";
 console.log(person);
+
+// question 4
+person["age"] = 30;
+console.log(person);
