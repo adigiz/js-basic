@@ -52,3 +52,11 @@ console.log(fruits[2])
 //Soal 3
 fruits.push("mango");
 console.log(fruits);
+
+//Soal 4
+fruits.unshift("Grape")
+console.log(fruits);
+
+//Soal 5
+fruits.pop();
+console.log(fruits);

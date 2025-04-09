@@ -45,7 +45,7 @@ fruits.push("Mango")
 Add `"Grape"` to the beginning of `fruits`.
 
 ```javascript
-// your code here
+fruits.unshift("Grape")
 ```
 
 ---
@@ -55,7 +55,7 @@ Add `"Grape"` to the beginning of `fruits`.
 Remove the last element from `fruits`.
 
 ```javascript
-// your code here
+fruits.pop();
 ```
 
 ---
@@ -65,7 +65,7 @@ Remove the last element from `fruits`.
 Remove the first element from `fruits`.
 
 ```javascript
-// your code here
+fruits.shift();
 ```
 
 ---
