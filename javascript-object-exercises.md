@@ -16,7 +16,11 @@ Create an object called `person` with these properties:
 | job   | "Developer" |
 
 ```javascript
-// your code here
+Person = {
+    name: "John",
+    age: 25,
+    job: "Developer"
+}
 ```
 
 ---
@@ -28,7 +32,8 @@ Use `console.log` to display:
 - The person's job
 
 ```javascript
-// your code here
+console.log(Person.name); 
+console.log(Person.job);
 ```
 
 ---
@@ -38,7 +43,7 @@ Use `console.log` to display:
 Add a new property called `hobby` with value `"Reading"` to the `person` object.
 
 ```javascript
-// your code here
+Person.hobby = "Reading"
 ```
 
 ---
