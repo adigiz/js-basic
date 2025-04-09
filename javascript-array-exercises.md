@@ -98,7 +98,7 @@ console.log(fruits.includes("Banana"));
 Find the index of `"Orange"` in the `fruits` array.
 
 ```javascript
-// your code here
+console.log(fruits.indexOf("Orange"));
 ```
 
 ---
@@ -110,7 +110,7 @@ Convert the `fruits` array to a single string separated by commas.
 Example output → `"Apple,Banana,Orange"`
 
 ```javascript
-// your code here
+console.log(fruits.join(","));
 ```
 
 ---
