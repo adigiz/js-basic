@@ -48,14 +48,7 @@ console.log(person.job);
 Add a new property called `hobby` with value `"Reading"` to the `person` object.
 
 ```javascript
- const person = {
-    fullname : "John",
-    age : 25,
-    job : "Developer"
-    hobby:"reading",
-};
-console.log(person.name);
-console.log(person.job);
+person.hobby = "Reading";
 ```
 
 ---
@@ -65,14 +58,7 @@ console.log(person.job);
 Change the `age` of `person` to `30`.
 
 ```javascript
- const person = {
-    fullname : "John",
-    age : 30,
-    job : "Developer",
-    hobby : "reading",
-};
-console.log(person.name);
-console.log(person.job);
+ person.age = "30";
 ```
 
 ---
@@ -82,7 +68,7 @@ console.log(person.job);
 Remove the `job` property from the `person` object.
 
 ```javascript
-// your code here
+delete person.job;
 ```
 
 ---
@@ -102,7 +88,15 @@ Create an object `student` with:
 Print `student`'s city.
 
 ```javascript
-// your code here
+const student ={
+    name : "Alice",
+    grade: 90,
+    addres : {
+        city : "jakarta",
+        country : "Indonesia",
+
+    }
+},
 ```
 
 ---
