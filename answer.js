@@ -5,4 +5,5 @@ const person = {
     job: "Developer"
 }
 
-console.log(person)
+console.log(person.name);
+console.log(person["job"]);
