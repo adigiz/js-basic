@@ -4,15 +4,14 @@ let Person = {
     job: "Developer"
 }
 
-console.log(Person.name); // John
-console.log(Person.job); // 25
+console.log(Person.name); 
+console.log(Person.job); 
 
 Person.hobby = "Reading";
-console.log(Person.hobby); // Reading
+console.log(Person.hobby); 
 
-//remove job property
 delete Person.job;
-console.log(Person); // undefined
+console.log(Person); 
 
 let Student = {
     name: "Alice",
@@ -23,3 +22,8 @@ let Student = {
     }
 }
 console.log(Student.address.city)
+
+Person.greet = function (){
+    return `Hi, my name is ${this.name}`
+}
+console.log(Person.greet()) 
