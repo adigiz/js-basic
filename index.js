@@ -5,3 +5,7 @@ const person = {
   job: "Developer",
 };
 console.log(person);
+
+// question 2
+console.log(person.name);
+console.log(person.job);
