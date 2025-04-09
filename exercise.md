@@ -87,6 +87,8 @@ Total = 5,000 + 78,000 + 50,000 = 133,000
 ---
 
 //Jawaban case 1,2,3
+
+
 function calculateParkingFee(vehicleType, duration) {
     const rates = {
         car: { firstHour: 5000, nextHour: 3000, extraCharge: 50000 },
