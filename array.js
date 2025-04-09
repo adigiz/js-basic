@@ -15,3 +15,6 @@ console.log(fruits);
 
 // question 5
 fruits.pop();
+
+// question 6
+fruits.shift();
