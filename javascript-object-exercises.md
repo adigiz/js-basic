@@ -17,12 +17,12 @@ Create an object called `person` with these properties:
 
 ```javascript
 // your code here
-```
 const person = {
     name: "John",
     age: 25,
     job: "Developer"
 }
+```
 ---
 
 ## 2. Access Object Properties
@@ -33,9 +33,8 @@ Use `console.log` to display:
 
 ```javascript
 // your code here
-```
-console.log(person.name);
 console.log(person["job"]);
+```
 ---
 
 ## 3. Add New Property
@@ -44,8 +43,8 @@ Add a new property called `hobby` with value `"Reading"` to the `person` object.
 
 ```javascript
 // your code here
-```
 person.hobby = "Reading";
+```
 ---
 
 ## 4. Update Property
@@ -54,8 +53,8 @@ Change the `age` of `person` to `30`.
 
 ```javascript
 // your code here
-```
 person.age = 30;
+```
 ---
 
 ## 5. Delete Property
@@ -64,8 +63,8 @@ Remove the `job` property from the `person` object.
 
 ```javascript
 // your code here
-```
 delete person.job;
+```
 ---
 
 ## 6. Object Inside Object
@@ -84,8 +83,8 @@ Print `student`'s city.
 
 ```javascript
 // your code here
-```
 console.log(student.address.city);
+```
 ---
 
 ## 7. Function in Object
@@ -98,7 +97,6 @@ Then call it.
 
 ```javascript
 // your code here
-```
 const person = {
     name: "John",
     age: 25,
@@ -109,6 +107,7 @@ const person = {
 }
 
 person.greet();
+```
 ---
 
 Happy Coding! 🚀
