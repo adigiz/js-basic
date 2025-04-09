@@ -17,3 +17,7 @@ console.log(person);
 // question 4
 person["age"] = 30;
 console.log(person);
+
+// question 5
+delete person.job;
+console.log(person);
