@@ -14,7 +14,8 @@ Create an array called `fruits` that contains:
 - "Orange"
 
 ```javascript
-// your code here
+const fruits = ["Apple","Banana","Orange"];
+ 
 ```
 
 ---
@@ -24,7 +25,8 @@ Create an array called `fruits` that contains:
 Print the first and the last element of the `fruits` array.
 
 ```javascript
-// your code here
+console.log(fruits[0]);
+console.log(fruits[2]);
 ```
 
 ---
