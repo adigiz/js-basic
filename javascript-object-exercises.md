@@ -43,7 +43,7 @@ console.log(Person.job);
 Add a new property called `hobby` with value `"Reading"` to the `person` object.
 
 ```javascript
-Person.hobby = "Reading"
+Person.hobby = "Reading";
 ```
 
 ---
@@ -53,7 +53,7 @@ Person.hobby = "Reading"
 Change the `age` of `person` to `30`.
 
 ```javascript
-// your code here
+Person.age = 30;
 ```
 
 ---
