@@ -5,5 +5,12 @@ const person = {
     job: "Developer"
 }
 
+// soal 2
 console.log(person.name);
 console.log(person["job"]);
+
+// soal 3
+person.hobby = "Reading";
+
+
+console.log(person)
