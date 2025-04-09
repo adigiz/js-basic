@@ -44,3 +44,11 @@ console.log(Person.greet())
 
 //Soal 1
 let fruits = ["apple", "banana", "orange"];
+
+//Soal 2
+console.log(fruits[0])
+console.log(fruits[2])
+
+//Soal 3
+fruits.push("mango");
+console.log(fruits);

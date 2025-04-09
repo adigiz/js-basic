@@ -24,7 +24,8 @@ let fruits = ["Apple","Banana","Orange"]
 Print the first and the last element of the `fruits` array.
 
 ```javascript
-// your code here
+console.log(fruits[0])
+console.log(fruits[2])
 ```
 
 ---
@@ -34,7 +35,7 @@ Print the first and the last element of the `fruits` array.
 Add `"Mango"` to the end of `fruits`.
 
 ```javascript
-// your code here
+fruits.push("Mango")
 ```
 
 ---
