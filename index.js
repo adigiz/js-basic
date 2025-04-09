@@ -21,3 +21,15 @@ console.log(person);
 // question 5
 delete person.job;
 console.log(person);
+
+// question 6
+const student = {
+    name: "Alice",
+    grade: 90,
+    address: {
+        city: "Jakarta",
+        country: "Indonesia"
+    },
+}
+console.log(student.address.city);
+console.log(student);
