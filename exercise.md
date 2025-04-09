@@ -55,6 +55,7 @@ Calculation:
 - Next 2 Hours = 2 x 3,000 = 6,000  
 Total = 5,000 + 6,000 = 11,000
 
+
 ---
 
 ### Case 2
@@ -82,3 +83,26 @@ Calculation:
 - Next 26 Hours = 26 x 3,000 = 78,000  
 - Extra Charge = 50,000  
 Total = 5,000 + 78,000 + 50,000 = 133,000
+
+---
+
+//Jawaban case 1,2,3
+function calculateParkingFee(vehicleType, duration) {
+    const rates = {
+        car: { firstHour: 5000, nextHour: 3000, extraCharge: 50000 },
+        bike: { firstHour: 2000, nextHour: 1000, extraCharge: 20000 }
+    };
+
+    if (!rates[vehicleType]) throw new Error("Invalid vehicle type");
+    const roundedDuration = Math.ceil(duration);
+    const { firstHour, nextHour, extraCharge } = rates[vehicleType];
+
+    let total = firstHour + Math.max(0, (roundedDuration - 1)) * nextHour;
+    if (roundedDuration > 24) total += extraCharge;
+
+    return total;
+}
+
+console.log(calculateParkingFee("car", 3));  
+console.log(calculateParkingFee("bike", 1)); 
+console.log(calculateParkingFee("car", 27)); 
