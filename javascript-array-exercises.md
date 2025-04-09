@@ -36,7 +36,7 @@ console.log(fruits[2]);
 Add `"Mango"` to the end of `fruits`.
 
 ```javascript
-// your code here
+fruit.push("mango");
 ```
 
 ---
@@ -46,7 +46,7 @@ Add `"Mango"` to the end of `fruits`.
 Add `"Grape"` to the beginning of `fruits`.
 
 ```javascript
-// your code here
+fruit.push(grape);
 ```
 
 ---
