@@ -24,3 +24,7 @@ console.log(fruits.length);
 
 // question 8
 console.log(fruits.includes("Banana"));
+
+// question 9
+console.log(fruits.indexOf("Orange"));
+
