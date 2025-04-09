@@ -19,7 +19,7 @@ Create an object called `person` with these properties:
 const person = {
     name : "John",
     age : 25,
-    job : "Develop"
+    job : "Developer"
 };
 ```
 
@@ -48,7 +48,14 @@ console.log(person.job);
 Add a new property called `hobby` with value `"Reading"` to the `person` object.
 
 ```javascript
-// your code here
+ const person = {
+    fullname : "John",
+    age : 25,
+    job : "Developer"
+    hobby:"reading",
+};
+console.log(person.name);
+console.log(person.job);
 ```
 
 ---
@@ -58,7 +65,14 @@ Add a new property called `hobby` with value `"Reading"` to the `person` object.
 Change the `age` of `person` to `30`.
 
 ```javascript
-// your code here
+ const person = {
+    fullname : "John",
+    age : 30,
+    job : "Developer",
+    hobby : "reading",
+};
+console.log(person.name);
+console.log(person.job);
 ```
 
 ---
