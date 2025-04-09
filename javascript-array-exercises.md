@@ -25,7 +25,7 @@ Print the first and the last element of the `fruits` array.
 
 ```javascript
 console.log(fruits[0]);
-console.log(fruits[-1]);
+console.log(fruits[fruits.length - 1]);
 ```
 
 ---
@@ -110,6 +110,7 @@ Example output → `"Apple,Banana,Orange"`
 
 ```javascript
 console.log(fruits.join(","));
+console.log(fruits.toString());
 ```
 
 ---

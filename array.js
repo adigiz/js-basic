@@ -3,7 +3,7 @@ const fruits = ["Apple", "Banana", "Orange"];
 
 // question 2
 console.log(fruits[0]);
-console.log(fruits[-1]);
+console.log(fruits[fruits.length - 1]);
 
 // question 3
 fruits.push("Mango");
@@ -30,3 +30,4 @@ console.log(fruits.indexOf("Orange"));
 
 // question 10
 console.log(fruits.join(","));
+console.log(fruits.toString());
