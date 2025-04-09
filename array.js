@@ -18,3 +18,6 @@ fruits.pop();
 
 // question 6
 fruits.shift();
+
+// question 7
+console.log(fruits.length);
