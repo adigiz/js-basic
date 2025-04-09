@@ -33,3 +33,9 @@ const student = {
 }
 console.log(student.address.city);
 console.log(student);
+
+// question 7
+person["greet"] = function() {
+    return `Hi, my name is ${this.name}`;
+}
+console.log(person.greet());
