@@ -36,7 +36,7 @@ console.log(fruits[2]);
 Add `"Mango"` to the end of `fruits`.
 
 ```javascript
-fruit.push("mango");
+fruits.push("mango");
 ```
 
 ---
@@ -46,7 +46,7 @@ fruit.push("mango");
 Add `"Grape"` to the beginning of `fruits`.
 
 ```javascript
-fruit.push(grape);
+fruits.push("Grape");
 ```
 
 ---
@@ -56,7 +56,7 @@ fruit.push(grape);
 Remove the last element from `fruits`.
 
 ```javascript
-// your code here
+fruits.pop();
 ```
 
 ---
@@ -66,7 +66,7 @@ Remove the last element from `fruits`.
 Remove the first element from `fruits`.
 
 ```javascript
-// your code here
+fruits.shift();
 ```
 
 ---
@@ -76,7 +76,7 @@ Remove the first element from `fruits`.
 Print how many items are in the `fruits` array.
 
 ```javascript
-// your code here
+
 ```
 
 ---
