@@ -18,4 +18,24 @@ person.age = 30;
 // soal 5
 delete person.job;
 
+// soal 6
+const student = {
+    name: "Alice",
+    grade: 90,
+    address: {
+        city: "Jakarta",
+        country: "Indonesia"
+    }
+}
+
+console.log(student.address.city);
+
+
+// soal 7
+const person = {
+    name: "John",
+    age: 25,
+    job: "Developer"
+}
+
 console.log(person)

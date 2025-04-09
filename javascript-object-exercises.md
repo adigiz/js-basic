@@ -85,7 +85,7 @@ Print `student`'s city.
 ```javascript
 // your code here
 ```
-
+console.log(student.address.city);
 ---
 
 ## 7. Function in Object
