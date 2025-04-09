@@ -12,3 +12,6 @@ console.log(fruits);
 // question 4
 fruits.unshift("Grapes");
 console.log(fruits);
+
+// question 5
+fruits.pop();
