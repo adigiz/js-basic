@@ -13,11 +13,8 @@ const lotBilling = (vehicleType, duration) => {
     };
     
     let totalCharge = 0;
+    totalCharge = duration > 24 ? pricing[vehicleType].extraCharge : 0;
 
-    if (duration > 24) {
-        totalCharge = pricing[vehicleType].extraCharge;
-    }
-    
     let totalFee = pricing[vehicleType].firstHour + (duration - 1) * pricing[vehicleType].nexthour + totalCharge;
 
     return totalFee;
