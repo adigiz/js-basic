@@ -1,3 +1,4 @@
+console.log("SOAL OBJECT-----")
 //Soal 1
 let Person = {
     name: "John",
@@ -41,16 +42,17 @@ Person.greet = function (){
 console.log(Person.greet()) 
 
 // Ceritanya SOAL ARRAY 
+console.log("SOAL ARRAY-----")
 
 //Soal 1
-let fruits = ["apple", "banana", "orange"];
+let fruits = ["Apple", "Banana", "Orange"];
 
 //Soal 2
 console.log(fruits[0])
 console.log(fruits[2])
 
 //Soal 3
-fruits.push("mango");
+fruits.push("Mango");
 console.log(fruits);
 
 //Soal 4
@@ -60,3 +62,19 @@ console.log(fruits);
 //Soal 5
 fruits.pop();
 console.log(fruits);
+
+//Soal 6
+fruits.shift();
+console.log(fruits);
+
+//Soal 7
+console.log(fruits.length);
+
+//Soal 8
+console.log(fruits.includes("Banana"));
+
+//Soal 9
+console.log(fruits.indexOf("Orange"));
+
+//Soal 10
+console.log(fruits.toString());

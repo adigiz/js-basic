@@ -75,7 +75,7 @@ fruits.shift();
 Print how many items are in the `fruits` array.
 
 ```javascript
-// your code here
+fruits.lenght();
 ```
 
 ---
@@ -87,7 +87,7 @@ Check if `"Banana"` exists in the `fruits` array.
 Expected output → `true` or `false`
 
 ```javascript
-// your code here
+fruits.includes("Banana");
 ```
 
 ---
@@ -97,7 +97,7 @@ Expected output → `true` or `false`
 Find the index of `"Orange"` in the `fruits` array.
 
 ```javascript
-// your code here
+fruits.indexOf("Orange")
 ```
 
 ---
@@ -109,7 +109,7 @@ Convert the `fruits` array to a single string separated by commas.
 Example output → `"Apple,Banana,Orange"`
 
 ```javascript
-// your code here
+fruits.toString()
 ```
 
 ---
