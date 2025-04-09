@@ -8,3 +8,7 @@ console.log(fruits[-1]);
 // question 3
 fruits.push("Mango");
 console.log(fruits);
+
+// question 4
+fruits.unshift("Grapes");
+console.log(fruits);
