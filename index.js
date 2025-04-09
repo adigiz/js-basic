@@ -9,3 +9,7 @@ console.log(Person.job); // 25
 
 Person.hobby = "Reading";
 console.log(Person.hobby); // Reading
+
+//remove job property
+delete Person.job;
+console.log(Person); // undefined
