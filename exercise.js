@@ -1,5 +1,4 @@
 const lotBilling = (vehicleType, duration) => {
-    // Define the pricing structure
     const pricing = {
         car: {
             firstHour: 5000,
@@ -18,6 +17,7 @@ const lotBilling = (vehicleType, duration) => {
     if (duration > 24) {
         totalCharge = pricing[vehicleType].extraCharge;
     }
+    
     let totalFee = pricing[vehicleType].firstHour + (duration - 1) * pricing[vehicleType].nexthour + totalCharge;
 
     return totalFee;
