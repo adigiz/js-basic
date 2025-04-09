@@ -83,7 +83,14 @@ Create an object `student` with:
 Print `student`'s city.
 
 ```javascript
-// your code here
+let Student = {
+    name: "Alice",
+    grade: 90,
+    address: {
+        city: "Jakarta",
+        country: "Indonesia"
+    }
+}
 ```
 
 ---
