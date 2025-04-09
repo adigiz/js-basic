@@ -15,4 +15,7 @@ person.hobby = "Reading";
 // soal 4
 person.age = 30;
 
+// soal 5
+delete person.job;
+
 console.log(person)
