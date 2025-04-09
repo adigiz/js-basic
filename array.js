@@ -28,3 +28,5 @@ console.log(fruits.includes("Banana"));
 // question 9
 console.log(fruits.indexOf("Orange"));
 
+// question 10
+console.log(fruits.join(","));
