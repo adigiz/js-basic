@@ -99,7 +99,16 @@ Then call it.
 ```javascript
 // your code here
 ```
+const person = {
+    name: "John",
+    age: 25,
+    job: "Developer",
+    greet: function () {
+        console.log("Hi, my name is John")
+    }
+}
 
+person.greet();
 ---
 
 Happy Coding! 🚀
