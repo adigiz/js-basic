@@ -39,3 +39,8 @@ Person.greet = function (){
     return `Hi, my name is ${this.name}`
 }
 console.log(Person.greet()) 
+
+// Ceritanya SOAL ARRAY 
+
+//Soal 1
+let fruits = ["apple", "banana", "orange"];
