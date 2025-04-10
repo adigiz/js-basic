@@ -86,7 +86,7 @@ Total = 5,000 + 78,000 + 50,000 = 133,000
 
 ---
 
-//Jawaban case 1,2,3
+## Jawaban case 1,2,3
 
 
 function calculateParkingFee(vehicleType, duration) {
@@ -104,7 +104,6 @@ function calculateParkingFee(vehicleType, duration) {
 
     return total;
 }
-
 console.log(calculateParkingFee("car", 3));  
 console.log(calculateParkingFee("bike", 1)); 
 console.log(calculateParkingFee("car", 27)); 
